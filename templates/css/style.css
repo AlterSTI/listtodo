@@ -1,0 +1,102 @@
+@import "calendar.css";
+
+*{
+    font-size: 16px;
+}
+
+/**Save button**/
+
+.edit-form a.button-save {
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 2px 7px 7px 7px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    position: absolute;
+    right: 33%;
+    margin-top: 10px;
+}
+.edit-form a.button-save:hover { background: rgb(53, 167, 110); }
+.edit-form a.button-save:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+/**Save button**/
+
+.calendar {
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    font-size: 14px;
+}
+
+.edit-form {
+    width: 700px;
+    margin: 20px auto;
+}
+
+.edit-form .form-table {
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.edit-form .form-table tr, .edit-form .form-table td, .edit-form .form-table th {
+    border: 1px solid;
+    height: 20px;
+    min-width: 200px;
+}
+
+.edit-form .form-table .date-input input, .edit-form .form-table .comment-area textarea{
+    width: 95%;
+}
+.deals {
+    width: 100%;
+    margin: 50px 0;
+}
+.deals .deals-title {
+    padding-left: 45%;
+}
+
+.deals .deal-table {
+    display: table;
+    width: 70%;
+    border-collapse: collapse;
+    border: 1px solid;
+    height: 20px;
+    margin: 50px auto;
+}
+
+.deal-table .d-tr {
+    display: table-row;
+}
+
+.deal-table .deals-table-title {
+    font-weight: bold;
+}
+.deal-table .d-td {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.deal-table .deal-item  .deal-control .edit-deal-item,  .deal-table .deal-item  .deal-control .delete-deal-item {
+    display: inline-block;
+    background: url("../img/sprites.png");
+    min-width: 16px;
+    min-height: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.deal-table .deal-item  .deal-control .edit-deal-item {
+    background-position: -85px -206px;
+}
+.deal-table .deal-item  .deal-control .delete-deal-item {
+    background-position: -222px -205px;
+}

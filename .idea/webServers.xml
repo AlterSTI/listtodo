@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="80c24625-b155-4f5b-9ee3-aa535192a34b" name="zzz.com.ua" url="http://zzz.com.ua">
+        <fileTransfer host="zzz.com.ua" port="21" rootFolder="/listtodo.zzz.com.ua">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5e6913ef-22e7-41fa-82e0-64b396d01871" name="listtodo.atwebpages.com" url="http://listtodo.atwebpages.com">
+        <fileTransfer host="listtodo.atwebpages.com" port="221" rootFolder="/listtodo.atwebpages.com" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="221" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

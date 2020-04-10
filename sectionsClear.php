@@ -1,11 +1,6 @@
 <?php
 declare(strict_types=1);
 
-use ListTodo\Models\Connector;
-use ListTodo\Controllers\Controller;
-use ListTodo\Models\Deal;
-
-
 $resultArray = [
    [
         'id' => 1,

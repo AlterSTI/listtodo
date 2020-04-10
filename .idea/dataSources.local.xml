@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="fdb19.runhosting.com" uuid="e8df8e66-c253-40aa-9d3e-e312d5c9b9d3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>3371060_deals</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
